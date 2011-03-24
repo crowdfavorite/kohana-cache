@@ -5,16 +5,16 @@ return array(
 	'modules' => array(
 
 		// This should be the path to this modules userguide pages, without the 'guide/'. Ex: '/guide/modulename/' would be 'modulename'
-		'database' => array(
+		'cache' => array(
 
 			// Whether this modules userguide pages should be shown
 			'enabled' => TRUE,
 			
 			// The name that should show up on the userguide index page
-			'name' => 'Database',
+			'name' => 'Cache',
 
 			// A short description of this module, shown on the index page
-			'description' => 'Database agnostic querying and result management.',
+			'description' => 'Common interface for caching engines.',
 			
 			// Copyright message, shown in the footer for this module
 			'copyright' => '&copy; 2008–2010 Kohana Team',
